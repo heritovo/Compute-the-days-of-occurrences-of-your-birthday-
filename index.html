@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Compute the days of occurrences of your birthday!</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body">
+
+  <label for="birthday">Your birthday: </label>
+  <input type="date" id="birthday" value="1999-12-09">
+
+  <p>Remember to enter a start-year and an end-year using the input fields below. </p>
+
+  <label for="startYear">Start-Year: </label>
+  <input type="number" id="startYear" min="1940" value="2022" max="3000">
+
+  <p></p>
+
+  <label for="endYear">End-Year: </label>
+  <input type="number" id="endYear" min="1940" value="2047" max="3000"> 
+
+  <p></p>
+
+  <button onclick="computeBirthday();">Compute the days of occurrences of your birthday!</button>
+  
+  <p></p>
+
+  <output id="results"></output>
+
+  
+  <script src="index.js"></script>
+</body>
+</html>
